@@ -35,6 +35,8 @@ Porting for RP2040:
 #include <hardware/spi.h>
 #include <hardware/i2c.h>
 
+#define gpio_function gpio_function_t
+#define iobank0_regs iobank0_hw_t
 
 // #define DEBUG
 
